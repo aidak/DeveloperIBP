@@ -1,0 +1,29 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+.header {
+  @extend .fedra-light;
+  position: relative;
+  z-index: 1;
+  @include box-shadow(5px, 0, 30px, #eaedef);
+  .main-menu-item.active {
+    .main-menu-link {
+      color: $light-blue;
+    }
+  }
+  .main-menu-item {
+    margin: 0 15px;
+  }
+  .main-menu-link {
+    text-decoration: none;
+    color: $dark-blue;
+    &:hover, &:focus {
+      color: $light-blue;
+    }
+  }
+  .logout {
+    width: 135px;
+    @include box-shadow(2px, 2px, 20px, $blue-shadow);
+  }
+}

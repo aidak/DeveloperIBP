@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+button:focus, select:focus {
+  outline: none !important;
+  @include box-shadow(3px, 0, 17px, #ccc  !important);
+}
+
+.main-content {
+  background-color: $main-bg-color;
+}
+

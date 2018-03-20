@@ -1,0 +1,28 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button and link components.
+// -----------------------------------------------------------------------------
+
+.btn-colored {
+  background: linear-gradient(#99d7f3, #29ace7);
+  border: none;
+  color: $white;
+  &:hover, &:active {
+    color: $white;
+    text-decoration: none;
+  }
+}
+
+.btn-transparent {
+  background: none;
+  border: 1px solid $gray;
+}
+
+.form-submit-btn {
+  width: 204px;
+  line-height: 1;
+}
+
+.underlined-link {
+  color: $light-blue !important;
+  text-decoration: underline !important;
+}

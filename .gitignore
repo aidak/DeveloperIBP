@@ -1,0 +1,24 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/.tmp
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+
+# misc
+/.sass-cache
+npm-debug.log
+
+#System Files
+.DS_Store
+Thumbs.db
+
+# fontend built artifacts
+dist
+
+# bower dir
+bower_components

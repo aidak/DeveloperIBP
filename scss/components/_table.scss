@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the table component.
+// -----------------------------------------------------------------------------
+
+.properties-table {
+  tr:nth-of-type(odd) {
+    background-color: $main-bg-color;
+  }
+  td {
+    padding: 6px 11px;
+    border: none;
+  }
+}

@@ -1,0 +1,63 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+.main-content {
+  padding: 45px 0 60px;
+}
+
+.filter-tabs {
+  padding: 0 20px;
+  @extend .shadow-section;
+  .filter-tabs-link {
+    @extend .gray-text;
+    border: none;
+    padding: 15px 5px;
+    &.active {
+      border-bottom: 2px solid $light-blue;
+      color: $light-blue;
+    }
+  }
+}
+
+.filter-tabs-footer {
+  padding: 20px 20px 5px;
+  background-color: $section-footer-bg;
+  .tab-filters-chosen {
+    background-color: $main-bg-color;
+    padding: 5px 9px;
+  }
+  .close-icon {
+    color: $close-icon-color;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 0;
+  }
+}
+
+.filter-result-header {
+  padding: 25px 0;
+}
+
+.filter-result-body {
+  height: 100vh;
+}
+
+.collapsing-objects {
+  height: calc(100vh - 96px);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.collapsing-objects-button {
+  border-top: 1px solid $gray;
+  padding: 25px;
+}
+
+.filter-result-footer {
+  padding: 20px;
+  background-color: $section-footer-bg;
+}
+
+
+

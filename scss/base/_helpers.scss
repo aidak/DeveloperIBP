@@ -1,0 +1,39 @@
+// -----------------------------------------------------------------------------
+// This file contains CSS helper classes.
+// -----------------------------------------------------------------------------
+
+.main-font-size {
+  font-size: 14px;
+}
+
+.gray-text {
+  color: $gray-text-color;
+}
+
+.rounded-element {
+  border-radius: 27px;
+}
+
+.centered-flexbox {
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title {
+  font-size: 29px;
+  @extend .fedra-medium;
+}
+
+.section-title {
+  font-size: 20px;
+  @extend .fedra-medium;
+}
+
+.shadow-section {
+  background-color: $white;
+  position: relative;
+  z-index: 1;
+  @include box-shadow(0, 2px, 10px, $gray);
+}

@@ -1,0 +1,17 @@
+// here are included all the medias for different devices
+
+@media (max-width: 767px) {
+  @import "max767";
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+  @import "min480max767";
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+  @import "min767max991";
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  @import "min991max1200";
+}

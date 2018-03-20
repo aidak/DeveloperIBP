@@ -1,0 +1,29 @@
+// -----------------------------------------------------------------------------
+// This file contains all @font-face declarations, if any.
+// -----------------------------------------------------------------------------
+
+@font-face {
+  font-family: 'Fedra sans medium';
+  src: url("../fonts/Fedra-Sans-Pro-Medium.eot") format("eot");
+  src: url("../fonts/Fedra-Sans-Pro-Medium.woff") format("woff"),
+  url("../fonts/Fedra-Sans-Pro-Medium.ttf") format("ttf"),
+  url("../fonts/Fedra-Sans-Pro-Medium.otf") format("otf"),
+  url("../fonts/Fedra-Sans-Pro-Medium.svg") format("svg");
+}
+
+@font-face {
+  font-family: 'Fedra sans light';
+  src: url("../fonts/FedraSansPro-Light.eot") format("eot");
+  src: url("../fonts/FedraSansPro-Light.woff") format("woff"),
+  url("../fonts/FedraSansPro-Light.ttf") format("ttf"),
+  url("../fonts/FedraSansPro-Light.otf") format("otf"),
+  url("../fonts/FedraSansPro-Light.svg") format("svg");
+}
+
+.fedra-medium {
+  font-family: 'Fedra sans medium';
+}
+
+.fedra-light {
+  font-family: 'Fedra sans light';
+}
